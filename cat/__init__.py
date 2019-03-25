@@ -1,6 +1,7 @@
+from cat import types
+
 import math
 import heapq
-import types
 import random
 import scipy.optimize
 import numpy as np
