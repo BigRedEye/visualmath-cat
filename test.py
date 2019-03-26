@@ -48,5 +48,5 @@ if __name__ == "__main__":
             count += 1
             variance += i ** 2
 
-    print("Average delta: ", delta / count)
-    print("Stdev: ", math.sqrt(variance / count - 1))
+    print("Mean: ", delta / count)
+    print("Stdev: ", math.sqrt(variance / (count - 1)))
